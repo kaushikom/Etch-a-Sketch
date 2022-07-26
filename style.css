@@ -1,0 +1,112 @@
+.pixel{
+    border : 1px solid black;
+box-sizing: border-box;
+background-color: white;
+    
+}
+h1{
+    /* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Lavishly Yours', cursive; */
+font-family: 'Leckerli One', cursive;
+/* font-family: 'Ruthie', cursive; */
+
+font-size: 50px;
+color: #000000;
+border: 3px solid black;
+padding-left:15px;
+padding-right: 20px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(background.jpg);
+    background-size: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.console{
+    display: flex;
+    justify-content:center;
+    gap: 300px;
+}
+.controls{
+    /* Glassmorphism */
+    background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(12.7px);
+-webkit-backdrop-filter: blur(12.7px);
+border: 1px solid rgba(255, 255, 255, 0.22);
+
+text-align: center;
+font-family: 'Bangers', cursive;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+width: 200px;
+}
+.gridSize p{
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.1px);
+    -webkit-backdrop-filter: blur(13.1px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    font-size: 25px;
+    color:rgb(254, 247, 248);
+}
+
+.gridColor p{
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.1px);
+    -webkit-backdrop-filter: blur(13.1px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    font-size: 25px;
+    color:rgb(254, 247, 248);
+    margin-top: 0;
+}
+#reset{
+    border-radius: 20px;
+    padding: 2px 2px;
+font-size: 20px;
+    font-family: 'Bangers', cursive;
+}
+#reset:hover{
+    cursor: pointer;
+}
+.gridSize div{
+    color: #000000;
+border: 3px solid black;
+font-size: 25px;
+margin: 10px 10px;
+transition: transform 300ms;
+}
+.gridSize div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.gridColor div{
+    color: #000000;
+    border: 3px solid black;
+    font-size: 25px;
+    margin: 10px 10px;
+    transition: transform 300ms;
+}
+.gridColor div:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
