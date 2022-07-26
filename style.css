@@ -1,5 +1,5 @@
 .pixel{
-    border : 1px solid black;
+    border : 1px solid rgb(0, 0, 0);
 box-sizing: border-box;
 background-color: white;
     
@@ -79,13 +79,13 @@ width: 200px;
     color:rgb(254, 247, 248);
     margin-top: 0;
 }
-#reset{
+#reset, #grid{
     border-radius: 20px;
     padding: 2px 2px;
 font-size: 20px;
     font-family: 'Bangers', cursive;
 }
-#reset:hover{
+#reset:hover, #grid:hover{
     cursor: pointer;
 }
 .gridSize div{
