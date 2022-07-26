@@ -9,7 +9,7 @@ h1{
 /* font-family: 'Lavishly Yours', cursive; */
 font-family: 'Leckerli One', cursive;
 /* font-family: 'Ruthie', cursive; */
-
+margin-top: 15px;
 font-size: 50px;
 color: #000000;
 border: 3px solid black;
@@ -28,6 +28,7 @@ body{
     padding: 0%;
     background-image: url(background.jpg);
     background-size: auto;
+
 }
 .card{
     display: flex;
@@ -82,7 +83,7 @@ width: 200px;
 #reset, #grid{
     border-radius: 20px;
     padding: 2px 2px;
-font-size: 20px;
+    font-size: 20px;
     font-family: 'Bangers', cursive;
 }
 #reset:hover, #grid:hover{
@@ -90,10 +91,10 @@ font-size: 20px;
 }
 .gridSize div{
     color: #000000;
-border: 3px solid black;
-font-size: 25px;
-margin: 10px 10px;
-transition: transform 300ms;
+    border: 3px solid black;
+    font-size: 25px;
+    margin: 10px 10px;
+    transition: transform 300ms;
 }
 .gridSize div:hover{
     cursor: pointer;
@@ -107,6 +108,28 @@ transition: transform 300ms;
     transition: transform 300ms;
 }
 .gridColor div:hover{
-cursor: pointer;
-transform: scale(1.1);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.credits{
+    margin: 10px 10px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    border: 3px solid black;
+    padding: 5px 5px;
+    width: 350px;
+}
+.credits img{
+    width: auto;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
