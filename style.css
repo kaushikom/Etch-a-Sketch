@@ -366,7 +366,7 @@ color: #000000;
 border: 3px solid black;
 padding-left:15px;
 padding-right: 20px;
-margin-bottom: 70px;
+margin-bottom: 50px;
 }
 #container{
     display: flex;
@@ -392,7 +392,7 @@ body{
 .console{
     display: flex;
     justify-content:center;
-    gap: 300px;
+    gap: 350px;
 }
 .controls{
     /* Glassmorphism */
@@ -433,6 +433,15 @@ width: 200px;
     color:rgb(254, 247, 248);
     margin-top: 0;
 }
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #8b78ff;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #514694;
+}
 #reset, #grid{
     border-radius: 20px;
     padding: 2px 2px;
@@ -465,7 +474,7 @@ width: 200px;
     transform: scale(1.1);
 }
 .credits{
-    margin: 50px 0px;
+    margin: -7px 0px;
     text-align: center;
     font-family: 'Bangers', cursive;
     font-size: 30px;
